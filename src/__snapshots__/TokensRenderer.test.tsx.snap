@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TokensRenderer > should render correctly 1`] = `
+<div>
+  Hello, 
+  <strong>
+    John Doe
+  </strong>
+  !
+</div>
+`;

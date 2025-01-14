@@ -1,0 +1,62 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MessageTemplate > customized noMatch 1`] = `
+<div>
+  <div>
+    his name is 
+    <strong>
+      John Doe
+    </strong>
+    , and his age is 
+    <span
+      style="color: red;"
+    >
+      No value for key: age
+    </span>
+    .
+  </div>
+</div>
+`;
+
+exports[`MessageTemplate > default noMatch(\`{key}\`) 1`] = `
+<div>
+  <div>
+    his name is 
+    <strong>
+      John Doe
+    </strong>
+    , and his age is 
+    {age}
+    .
+  </div>
+</div>
+`;
+
+exports[`MessageTemplate > render as a code tag 1`] = `
+<div>
+  <code>
+    console.log("
+    Hello World
+    ")
+  </code>
+</div>
+`;
+
+exports[`MessageTemplate > should render a string 1`] = `
+<div>
+  <div>
+    hello world
+  </div>
+</div>
+`;
+
+exports[`MessageTemplate > should render correctly 1`] = `
+<div>
+  <div>
+    hello, 
+    <strong>
+      John Doe
+    </strong>
+  </div>
+</div>
+`;
